@@ -1,7 +1,0 @@
-{
-  "livePreview.defaultPreviewPath": "/css-4/index.html",
-  "editor.formatOnSave": true,
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-}
