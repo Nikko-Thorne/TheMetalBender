@@ -78,9 +78,11 @@ video {
   vertical-align: baseline;
   background: transparent;
 }
+
 body {
   line-height: 1;
 }
+
 article,
 aside,
 details,
@@ -94,19 +96,23 @@ nav,
 section {
   display: block;
 }
+
 nav ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: none;
 }
+
 a {
   margin: 0;
   padding: 0;
@@ -114,29 +120,35 @@ a {
   vertical-align: baseline;
   background: transparent;
 }
+
 ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none;
 }
+
 mark {
   background-color: #ff9;
   color: #000;
   font-style: italic;
   font-weight: bold;
 }
+
 del {
   text-decoration: line-through;
 }
+
 abbr[title],
 dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 hr {
   display: block;
   height: 1px;
@@ -145,6 +157,7 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+
 input,
 select {
   vertical-align: middle;
@@ -188,6 +201,7 @@ select {
   text-decoration: none;
   text-shadow: -1px 1px 0px black, 1px 1px 0 black, 1px -1px 0 black,
     -1px -1px 0 black;
+  margin-top: 10px;
 }
 
 .main {
@@ -225,6 +239,7 @@ select {
   font-weight: bold;
   font-size: medium;
   font-family: arial bold;
+  gap: 5px;
 }
 
 .nav__right {
@@ -394,6 +409,7 @@ a:-webkit-any-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
 
   .nav__left a {
@@ -401,6 +417,7 @@ a:-webkit-any-link {
     align-items: center;
     font-size: min(3vw, 25px);
     margin-bottom: 20px;
+    gap: 5px;
   }
 
   .nav__right {
@@ -509,6 +526,7 @@ a:-webkit-any-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
   }
 
   .nav__left a {
@@ -516,6 +534,7 @@ a:-webkit-any-link {
     align-items: center;
     font-size: min(3vw, 25px);
     margin-bottom: 20px;
+
   }
 
   .nav__right {
@@ -571,6 +590,10 @@ a:-webkit-any-link {
       "grillz grillz grillz grillz"
       "wt wt wt wt"
       "wrap wrap wrap wrap";
+  }
+
+  .nav__left a {
+    gap: 15px;
   }
 
   .pendant-title {
