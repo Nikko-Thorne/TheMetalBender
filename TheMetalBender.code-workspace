@@ -1,0 +1,10 @@
+{
+  "folders": [
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "livePreview.defaultPreviewPath": "/css-4/index.html"
+  }
+}
